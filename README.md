@@ -89,10 +89,15 @@ Processo repetitivo e demorado
 Depois do pipeline:
 
 ✅ Atualização com 1 comando
+
 ✅ Processo automatizado
+
 ✅ Código reutilizável
+
 ✅ Padronização do fluxo
+
 ✅ Integração direta com banco de dados
+
 ✅ Escalável para novos indicadores
 
 🛡️ Redução de Erro Humano
