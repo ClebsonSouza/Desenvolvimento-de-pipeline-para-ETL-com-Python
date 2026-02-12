@@ -1,5 +1,5 @@
-### 📊 Pipeline ETL – PIB Brasileiro (BCB → MySQL)
-🚀 Visão Geral
+## Pipeline ETL – PIB Brasileiro (BCB → MySQL)
+Visão Geral
 Este projeto implementa um Pipeline de Dados em Python para extração, transformação e carga (ETL) do PIB brasileiro a partir da API do Banco Central do Brasil (BCB), armazenando os dados em um banco MySQL para posterior análise e visualização.
 O objetivo principal é:
 
@@ -9,7 +9,7 @@ O objetivo principal é:
 🔹 Criar uma base estruturada para dashboards e análises
 
 
-🏗️ Arquitetura do Projeto
+### Arquitetura do Projeto
 O projeto segue uma arquitetura modular, dividida em 4 camadas:
 📦 projeto_pib
  ├── extract.py      # Extração dos dados via API
@@ -18,7 +18,7 @@ O projeto segue uma arquitetura modular, dividida em 4 camadas:
  ├── pipeline.py     # Orquestração do processo
  └── banco_economia.sql  # Script de criação do banco
 
-🔄 Fluxo do Pipeline
+### Fluxo do Pipeline
 
 
 Extract → Coleta dados da API do Banco Central
@@ -34,7 +34,7 @@ Orquestração → pipeline.py executa tudo automaticamente
 
 
 
-📈 Resultado Final
+### Resultado Final
 O pipeline alimenta um banco estruturado que permite:
 
 
@@ -50,13 +50,13 @@ Indicadores acumulados
 Métricas estatísticas (média, máximo, mínimo)
 
 
-Integração com Power BI, Streamlit ou outras ferramentas
+Integração com Power BI
 
 
 Exemplo de visualização gerada a partir dos dados:
 
 
-🎯 Ganhos de Produtividade
+### Ganhos de Produtividade
 Antes do pipeline:
 
 
@@ -122,8 +122,7 @@ Governança
 Rastreabilidade
 
 
-
-🧠 Conceito Técnico Aplicado
+### Conceito Técnico Aplicado
 Este projeto aplica conceitos fundamentais de Engenharia de Dados:
 
 
@@ -208,8 +207,7 @@ Agendamento automático (cron job)
 Integração com Airflow
 
 
-
-💡 Valor Profissional do Projeto
+### Valor Profissional do Projeto
 Este projeto demonstra:
 
 
@@ -231,23 +229,8 @@ Organização profissional de código
 Prática de Engenharia de Dados
 
 
-Ele pode ser apresentado como:
 
-
-Projeto de portfólio
-
-
-Case de automação
-
-
-Demonstração de ETL
-
-
-Base para dashboards econômicos
-
-
-
-📌 Conclusão
+### Conclusão
 Este projeto vai além de um simples script.
 Ele representa:
 
