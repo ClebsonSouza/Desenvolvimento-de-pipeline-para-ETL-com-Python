@@ -1,16 +1,21 @@
 ## Pipeline ETL – PIB Brasileiro (BCB → MySQL)
+
 Visão Geral
 
 Este projeto implementa um Pipeline de Dados em Python para extração, transformação e carga (ETL) do PIB brasileiro a partir da API do Banco Central do Brasil (BCB), armazenando os dados em um banco MySQL para posterior análise e visualização.
 O objetivo principal é:
 
 🔹 Automatizar a coleta e processamento de dados econômicos
+
 🔹 Reduzir erros humanos
+
 🔹 Aumentar produtividade
+
 🔹 Criar uma base estruturada para dashboards e análises
 
 
 ### Arquitetura do Projeto
+
 O projeto segue uma arquitetura modular, dividida em 4 camadas:
 📦 projeto_pib
  ├── extract.py      # Extração dos dados via API
@@ -36,6 +41,7 @@ Orquestração → pipeline.py executa tudo automaticamente
 
 
 ### Resultado Final
+
 O pipeline alimenta um banco estruturado que permite:
 
 
@@ -58,6 +64,7 @@ Exemplo de visualização gerada a partir dos dados:
 
 
 ### Ganhos de Produtividade
+
 Antes do pipeline:
 
 
@@ -80,6 +87,7 @@ Processo repetitivo e demorado
 
 
 Depois do pipeline:
+
 ✅ Atualização com 1 comando
 ✅ Processo automatizado
 ✅ Código reutilizável
@@ -108,10 +116,15 @@ A automação reduz drasticamente:
 
 
 Como isso acontece?
+
 ✔ Transformações são feitas via código
+
 ✔ Tipos de dados são definidos programaticamente
+
 ✔ Banco possui estrutura controlada
+
 ✔ Processo é reproduzível
+
 Isso aumenta:
 
 
@@ -125,6 +138,7 @@ Rastreabilidade
 
 
 ### Conceito Técnico Aplicado
+
 Este projeto aplica conceitos fundamentais de Engenharia de Dados:
 
 
@@ -147,7 +161,6 @@ Reprodutibilidade
 
 
 Automação de pipeline
-
 
 
 🛠️ Tecnologias Utilizadas
@@ -173,71 +186,52 @@ API Banco Central (BCB SGS)
 
 
 ⚙️ Como Executar
+
 1️⃣ Criar banco
+
 Execute o script:
+
 banco_economia.sql
 
 2️⃣ Instalar dependências
+
 pip install pandas requests sqlalchemy pymysql
 
 3️⃣ Executar o pipeline
+
 python pipeline.py
 
 
 📊 Possíveis Expansões
-O pipeline pode facilmente ser expandido para:
 
+O pipeline pode facilmente ser expandido para:
 
 IPCA
 
-
 SELIC
-
 
 Taxa de desemprego
 
-
 Dólar
-
 
 Múltiplas séries econômicas
 
-
 Agendamento automático (cron job)
-
 
 Integração com Airflow
 
-
-### Valor Profissional do Projeto
-Este projeto demonstra:
-
-
-Capacidade de estruturar pipelines reais
-
-
-Integração entre sistemas
-
-
-Pensamento em automação
-
-
-Redução de risco operacional
-
-
-Organização profissional de código
-
-
-Prática de Engenharia de Dados
-
-
-
 ### Conclusão
+
 Este projeto vai além de um simples script.
+
 Ele representa:
 
 🔹 Automação inteligente
+
 🔹 Organização de dados
+
 🔹 Redução de risco
+
 🔹 Aumento de produtividade
+
 🔹 Aplicação real de engenharia de dados
