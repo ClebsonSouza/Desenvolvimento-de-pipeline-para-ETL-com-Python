@@ -1,5 +1,6 @@
 ## Pipeline ETL – PIB Brasileiro (BCB → MySQL)
 Visão Geral
+
 Este projeto implementa um Pipeline de Dados em Python para extração, transformação e carga (ETL) do PIB brasileiro a partir da API do Banco Central do Brasil (BCB), armazenando os dados em um banco MySQL para posterior análise e visualização.
 O objetivo principal é:
 
@@ -87,6 +88,7 @@ Depois do pipeline:
 ✅ Escalável para novos indicadores
 
 🛡️ Redução de Erro Humano
+
 A automação reduz drasticamente:
 
 
